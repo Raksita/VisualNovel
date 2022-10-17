@@ -102,8 +102,8 @@ public class Gameplay : MonoBehaviour
 
     void RelationshipRank(int s)
     {
-        if (s > 1) textRel.text = "Rank: intimate(" + score + ")";
-        else if (s == 1 || s >= 0) textRel.text = "Rank: intimate(" + score + ")";
-        else if (s < 0) textRel.text = "Rank: intimate(" + score + ")";
+        if (s > 1) textRel.text = " intimate (" + score + ")";
+        else if (s == 1 || s >= 0) textRel.text = " intimate (" + score + ")";
+        else if (s < 0) textRel.text = " intimate (" + score + ")";
     }
 }
